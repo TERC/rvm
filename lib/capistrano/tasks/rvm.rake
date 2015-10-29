@@ -51,7 +51,7 @@ end
 
 namespace :load do
   task :defaults do
-    set :rvm_map_bins, %w{gem rake ruby bundle}
+    set :rvm_map_bins, %w{gem rake ruby bundle cap}
     set :rvm_type, :auto
     set :rvm_ruby_version, "default"
   end

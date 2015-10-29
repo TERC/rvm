@@ -108,7 +108,7 @@ With the default configuration, this gem adds a new tasks `rvm:hook` and
 `rvm:check` after each stage-setting task (ex. 'staging', 'production', etc.).
 
 `rvm:hook` sets the `rvm ... do ...` for capistrano when it wants to run `rake`,
-`gem`, `bundle`, or `ruby`.
+`cap`, `gem`, `bundle`, or `ruby`.
 
 `rvm:check` outputs the current version info for rvm plus the active rvm and
 gemset.  It only runs when :log_level is set to :debug (including when the
